@@ -2,14 +2,14 @@
 package com.tnsif.daythree.scannerdemo;
 
 public class Person {
-	//Data members
+	
 	private String name;
 	private int income;
 	private String gender;
 	private int age;
 	private int tax;
 	
-	//Getter and Setters
+	
 	public int getTax() {
 		return tax;
 	}
@@ -41,7 +41,6 @@ public class Person {
 		this.age = age;
 	}
 	
-	//Object class method to return string representation of Person object
 	@Override
 	public String toString() {
 		return "Person [name=" + name + ", income=" + income + ", gender=" + gender + ", age=" + age + ", tax="+tax+"]";
