@@ -1,4 +1,4 @@
-package com.tnsif.daytwo;
+package day2;
 
 public class NestedIfElseDemo {
 
