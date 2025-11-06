@@ -9,7 +9,7 @@ public class DBUtil {
 	private static Connection cn;
 	private static final String DB_DRIVER_CLASS="com.mysql.cj.jdbc.Driver";
 	private static final String DB_USERNAME="root";
-	private static final String DB_PASSWORD="Deva@2005";
+	private static final String DB_PASSWORD="deva@123";
 	private static final String DB_URL ="jdbc:mysql://localhosts:3306/test";
 	public static Connection getConnetion() {
 		try {
